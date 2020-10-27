@@ -1,0 +1,24 @@
+{
+  "name": "create-jbz-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-jbz-lib": "./bin/init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "commander": "^6.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^2.8.6",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "jszip": "^3.5.0",
+    "nunjucks": "^3.2.2"
+  }
+}
